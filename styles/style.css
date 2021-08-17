@@ -1,7 +1,10 @@
 body {
  background: #2498EE;
- background: rgb(63,94,251);
- background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+ background: rgb(253,45,45);
+background: -moz-radial-gradient(circle, rgba(253,45,45,1) 1%, rgba(0,255,134,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(253,45,45,1) 1%, rgba(0,255,134,1) 100%);
+background: radial-gradient(circle, rgba(253,45,45,1) 1%, rgba(0,255,134,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd2d2d",endColorstr="#00ff86",GradientType=1);
 }
 h1 {
     color:red;
